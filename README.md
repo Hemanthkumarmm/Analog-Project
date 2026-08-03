@@ -6,7 +6,7 @@ This repository documents my hands-on journey through the analog IC design flow 
 
 | Circuit Block | Description | Key Metrics |
 | :--- | :--- | :--- |
-| [**CMOS Inverter**](./Inverter/Inverter.md) | Designed and analyzed one of the fundamental digital building block the `CMOS Inverter`. | VTC, Propagation Delay |
+| [**CMOS Inverter**](Inverter) | Designed and analyzed one of the fundamental digital building block the `CMOS Inverter`. | VTC, Propagation Delay |
 | [**2-Input NOR Gate**](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_gate/NOR_gate.md) | Transistor-level design of a 2 input NOR gate. | Truth Table, Delay |
 
 ## Toolflow Proficiency
