@@ -7,18 +7,18 @@ The circuit was simulated for both DC analysis (to verify truth table) and trans
 ## 2. Circuit Schematic
 The CMOS NOR gate consists of a series connection of NMOS transistors for the pull-down network and parallel PMOS transistors for the pull-up network.
 
-![NOR Schematic](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_gate/Screenshot%20from%202025-05-15%2013-05-05.png)
+![NOR Schematic](nor.png)
 
 *Figure 1: Schematic of the CMOS NOR gate.*
 
-![NOR Symbol](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_gate/Screenshot%20from%202025-05-15%2013-08-57.png)
+![NOR Symbol](nor_symbol.png)
 
 *Figure 2: Symbol of the CMOS NOR gate.*
 
 ## 3. Test Circuit
 DC analysis & Transient analysis were performed to verify the NOR gate truth table with VDD = 1.8V.
 
-![DC Analysi](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_gate/Screenshot%20from%202025-05-15%2013-10-50.png)
+![DC Analysi](nor_test.png)
 *Figure 3: Test Circuit.*
 
 **Truth Table Verification:**
@@ -32,7 +32,7 @@ DC analysis & Transient analysis were performed to verify the NOR gate truth tab
 ## 4. Pre-Layout Timing Analysis
 Transient analysis was performed to measure propagation delays for all input transitions.
 
-![Transient Response](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_gate/Screenshot%20from%202025-05-15%2013-17-17.png)
+![Transient Response](nor_waveform.png)
 *Figure 4: Transient response showing all input combinations.*
 
 ### Propagation Delays (Input A)
@@ -56,7 +56,7 @@ Transient analysis was performed to measure propagation delays for all input tra
 ## 5. Post-Layout Simulation
 The layout was implemented with full DRC and LVS verification followed by parasitic extraction.
 
-![NOR Layout](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_gate/Screenshot%20from%202025-05-15%2013-18-52.png)
+![NOR Layout](nor_layout.png)
 *Figure 5: Layout of the CMOS NOR gate.*
 
 ![Post-Layout Transient](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_Gate/Post_Layout_Transient.png)
