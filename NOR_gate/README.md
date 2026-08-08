@@ -35,23 +35,7 @@ Transient analysis was performed to measure propagation delays for all input tra
 ![Transient Response](nor_waveform.png)
 *Figure 4: Transient response showing all input combinations.*
 
-### Propagation Delays (Input A)
-| **Parameter** | **Description** | **Value** |
-|:-------------:|:----------------|:----------|
-| tpd_rise_A | Delay (A: 0→1, B=0) | [VALUE] ps |
-| tpd_fall_A | Delay (A: 1→0, B=0) | [VALUE] ps |
 
-### Propagation Delays (Input B)
-| **Parameter** | **Description** | **Value** |
-|:-------------:|:----------------|:----------|
-| tpd_rise_B | Delay (B: 0→1, A=0) | [VALUE] ps |
-| tpd_fall_B | Delay (B: 1→0, A=0) | [VALUE] ps |
-
-### Worst-Case Delays
-| **Parameter** | **Description** | **Value** |
-|:-------------:|:----------------|:----------|
-| tpd_max | Maximum propagation delay | [VALUE] ps |
-| tpd_avg | Average propagation delay | [VALUE] ps |
 
 ## 5. Post-Layout Simulation
 The layout was implemented with full DRC and LVS verification followed by parasitic extraction.
@@ -59,17 +43,7 @@ The layout was implemented with full DRC and LVS verification followed by parasi
 ![NOR Layout](nor_layout.png)
 *Figure 5: Layout of the CMOS NOR gate.*
 
-![Post-Layout Transient](https://github.com/tejasbg19/Cadence_Virtuoso_Analog/blob/main/NOR_Gate/Post_Layout_Transient.png)
-*Figure 6: Post-layout transient response.*
 
-### Post-Layout Timing Results
-| **Parameter** | **Pre-Layout** | **Post-Layout** | **Delta** |
-|:-------------:|:--------------:|:---------------:|:---------:|
-| tpd_rise_A | [VALUE] ps | [VALUE] ps | [VALUE] ps |
-| tpd_fall_A | [VALUE] ps | [VALUE] ps | [VALUE] ps |
-| tpd_rise_B | [VALUE] ps | [VALUE] ps | [VALUE] ps |
-| tpd_fall_B | [VALUE] ps | [VALUE] ps | [VALUE] ps |
-| tpd_max | [VALUE] ps | [VALUE] ps | [VALUE] ps |
 
 ## 6. Conclusion
 The CMOS NOR gate was successfully designed and simulated. The circuit correctly implements NOR logic functionality.
